@@ -1,16 +1,38 @@
 import React, {Component} from 'react';
+import styled from 'styled-components';
 
-class Menu extends Component {
-    render() {
-        return (
-            <nav id="menu">
-                <div id="menu-item">O mnie</div>
-                <div id="menu-item">Technologie</div>
-                <div id="menu-item">Projekty</div>
-                <div id="menu-item">Kontakt</div>
-            </nav>
-        );
-    }
+function Menu(){
+
+    const Navigation = styled.nav`
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    `;
+
+    const MenuItem = styled.div`
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+      width: 130px;
+      border-bottom: 5px solid green;
+      transition-duration: 0.5s;
+      &:hover{
+        border-bottom-color: yellow;
+      }
+    `;
+
+
+    return(
+        <Navigation id="menu">
+            <MenuItem id="menu-item">O mnie</MenuItem>
+            <MenuItem id="menu-item">Technologie</MenuItem>
+            <MenuItem id="menu-item">Projekty</MenuItem>
+            <MenuItem id="menu-item">Kontakt</MenuItem>
+        </Navigation>
+    )
 }
 
 export default Menu;
