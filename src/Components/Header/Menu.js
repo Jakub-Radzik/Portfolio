@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import styled from 'styled-components';
 
 function Menu(){
@@ -8,7 +8,6 @@ function Menu(){
       flex-direction: row;
       justify-content: space-evenly;
       align-items: center;
-      height: 100%;
     `;
 
     const MenuItem = styled.div`
@@ -16,7 +15,7 @@ function Menu(){
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100%;
+      height: 100px;
       width: 130px;
       border-bottom: 5px solid green;
       transition-duration: 0.5s;
