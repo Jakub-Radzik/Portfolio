@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea79d043-54b2-403f-b745-6bad2d6fb1ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Overview/RightOverview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Documents/Jakub Radzik alfa.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Overview/Overview.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Header/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Overview/Overview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Overview/Overview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/SiteLogo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/SiteLogo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Style/Header/header.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Style/style.sass" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,14 +56,10 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jakub\Desktop\PROGRAMOWANIE PO GODZINACH\jakub-radzik\src\Documents" />
-      <recent name="C:\Users\jakub\Desktop\PROGRAMOWANIE PO GODZINACH\jakub-radzik\src\Images" />
-      <recent name="C:\Users\jakub\Desktop\PROGRAMOWANIE PO GODZINACH\jakub-radzik\src" />
       <recent name="C:\Users\jakub\Desktop\jakub-radzik\src\Style\Header" />
     </key>
   </component>
@@ -101,10 +96,7 @@
       <updated>1613576717328</updated>
       <workItem from="1613576718479" duration="3669000" />
       <workItem from="1616853819954" duration="13000" />
-      <workItem from="1620546628157" duration="3252000" />
-      <workItem from="1620552399843" duration="2921000" />
-      <workItem from="1620576350083" duration="3085000" />
-      <workItem from="1620628112380" duration="11283000" />
+      <workItem from="1620546628157" duration="3192000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1620547347213</created>
@@ -113,14 +105,7 @@
       <option name="project" value="LOCAL" />
       <updated>1620547347213</updated>
     </task>
-    <task id="LOCAL-00002" summary="sticky navbar">
-      <created>1620549889672</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1620549889672</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +125,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <MESSAGE value="sticky navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="sticky navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init" />
   </component>
 </project>
