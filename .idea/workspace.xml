@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea79d043-54b2-403f-b745-6bad2d6fb1ac" name="Default Changelist" comment="" />
+    <list default="true" id="ea79d043-54b2-403f-b745-6bad2d6fb1ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +20,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1ocCuudOoOEZRRpYrxXvwEtJBlK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -75,6 +79,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.App.js" />
+        <item itemvalue="Node.js.App.js" />
+        <item itemvalue="Node.js.App.js" />
+        <item itemvalue="Node.js.App.js" />
+        <item itemvalue="Node.js.App.js" />
       </list>
     </recent_temporary>
   </component>
@@ -92,6 +100,7 @@
       <workItem from="1620552399843" duration="2921000" />
       <workItem from="1620576350083" duration="3085000" />
       <workItem from="1620628112380" duration="11283000" />
+      <workItem from="1620643381262" duration="792000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1620547347213</created>
@@ -107,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620549889672</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="social buttons">
+      <created>1620643403903</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620643403903</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +144,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
     <MESSAGE value="sticky navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="sticky navbar" />
+    <MESSAGE value="social buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="social buttons" />
   </component>
 </project>

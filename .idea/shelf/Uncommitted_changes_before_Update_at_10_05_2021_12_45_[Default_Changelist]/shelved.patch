@@ -1,0 +1,310 @@
+Index: package.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"name\": \"jakub-radzik\",\r\n  \"version\": \"0.1.0\",\r\n  \"private\": true,\r\n  \"dependencies\": {\r\n    \"@testing-library/jest-dom\": \"^5.11.9\",\r\n    \"@testing-library/react\": \"^11.2.5\",\r\n    \"@testing-library/user-event\": \"^12.7.1\",\r\n    \"jump.js\": \"^1.0.2\",\r\n    \"node-sass\": \"^5.0.0\",\r\n    \"react\": \"^17.0.1\",\r\n    \"react-dom\": \"^17.0.1\",\r\n    \"react-scripts\": \"4.0.2\",\r\n    \"react-sticky-nav\": \"^4.0.6\",\r\n    \"styled-components\": \"^5.3.0\",\r\n    \"web-vitals\": \"^1.1.0\"\r\n  },\r\n  \"scripts\": {\r\n    \"start\": \"react-scripts start\",\r\n    \"build\": \"react-scripts build\",\r\n    \"test\": \"react-scripts test\",\r\n    \"eject\": \"react-scripts eject\"\r\n  },\r\n  \"eslintConfig\": {\r\n    \"extends\": [\r\n      \"react-app\",\r\n      \"react-app/jest\"\r\n    ]\r\n  },\r\n  \"browserslist\": {\r\n    \"production\": [\r\n      \">0.2%\",\r\n      \"not dead\",\r\n      \"not op_mini all\"\r\n    ],\r\n    \"development\": [\r\n      \"last 1 chrome version\",\r\n      \"last 1 firefox version\",\r\n      \"last 1 safari version\"\r\n    ]\r\n  }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/package.json b/package.json
+--- a/package.json	(revision d5edb29af31a8b8a20ce93f9fd48dbd6760dc4a8)
++++ b/package.json	(date 1620643498143)
+@@ -1,11 +1,13 @@
+ {
+   "name": "jakub-radzik",
++  "homepage": "https://radzikoska123.github.io/Portfolio",
+   "version": "0.1.0",
+   "private": true,
+   "dependencies": {
+     "@testing-library/jest-dom": "^5.11.9",
+     "@testing-library/react": "^11.2.5",
+     "@testing-library/user-event": "^12.7.1",
++    "gh-pages": "^3.1.0",
+     "jump.js": "^1.0.2",
+     "node-sass": "^5.0.0",
+     "react": "^17.0.1",
+@@ -19,7 +21,9 @@
+     "start": "react-scripts start",
+     "build": "react-scripts build",
+     "test": "react-scripts test",
+-    "eject": "react-scripts eject"
++    "eject": "react-scripts eject",
++    "predeploy": "npm run build",
++    "deploy": "gh-pages -d build"
+   },
+   "eslintConfig": {
+     "extends": [
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"ea79d043-54b2-403f-b745-6bad2d6fb1ac\" name=\"Default Changelist\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1ocCuudOoOEZRRpYrxXvwEtJBlK\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.standard\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\r\n    <property name=\"node.js.path.for.package.standard\" value=\"project\" />\r\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.standard\" value=\"\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"nodejs_interpreter_path\" value=\"node\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"watcher.settings\" />\r\n    <property name=\"ts.external.directory.path\" value=\"C:\\Program Files\\JetBrains\\WebStorm 2020.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\jakub\\Desktop\\PROGRAMOWANIE PO GODZINACH\\jakub-radzik\\src\\Documents\" />\r\n      <recent name=\"C:\\Users\\jakub\\Desktop\\PROGRAMOWANIE PO GODZINACH\\jakub-radzik\\src\\Images\" />\r\n      <recent name=\"C:\\Users\\jakub\\Desktop\\PROGRAMOWANIE PO GODZINACH\\jakub-radzik\\src\" />\r\n      <recent name=\"C:\\Users\\jakub\\Desktop\\jakub-radzik\\src\\Style\\Header\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Node.js.App.js\">\r\n    <configuration name=\"Debug Application\" type=\"JavascriptDebugType\" uri=\"http://localhost:3000\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"App.js\" type=\"NodeJSConfigurationType\" temporary=\"true\" nameIsGenerated=\"true\" path-to-js-file=\"$PROJECT_DIR$/src/App.js\" working-dir=\"$PROJECT_DIR$/src\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"npm start\" type=\"js.build_tools.npm\">\r\n      <package-json value=\"$PROJECT_DIR$/package.json\" />\r\n      <command value=\"run\" />\r\n      <scripts>\r\n        <script value=\"start\" />\r\n      </scripts>\r\n      <node-interpreter value=\"project\" />\r\n      <envs />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Node.js.App.js\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"ea79d043-54b2-403f-b745-6bad2d6fb1ac\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1613576717328</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1613576717328</updated>\r\n      <workItem from=\"1613576718479\" duration=\"3669000\" />\r\n      <workItem from=\"1616853819954\" duration=\"13000\" />\r\n      <workItem from=\"1620546628157\" duration=\"3252000\" />\r\n      <workItem from=\"1620552399843\" duration=\"2921000\" />\r\n      <workItem from=\"1620576350083\" duration=\"3085000\" />\r\n      <workItem from=\"1620628112380\" duration=\"11283000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Init\">\r\n      <created>1620547347213</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1620547347213</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"sticky navbar\">\r\n      <created>1620549889672</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1620549889672</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Init\" />\r\n    <MESSAGE value=\"sticky navbar\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"sticky navbar\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision d5edb29af31a8b8a20ce93f9fd48dbd6760dc4a8)
++++ b/.idea/workspace.xml	(date 1620643474047)
+@@ -1,7 +1,11 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="ea79d043-54b2-403f-b745-6bad2d6fb1ac" name="Default Changelist" comment="" />
++    <list default="true" id="ea79d043-54b2-403f-b745-6bad2d6fb1ac" name="Default Changelist" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2021_12_31__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2021_12_31__Default_Changelist_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -17,7 +21,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="Developer" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -92,6 +96,7 @@
+       <workItem from="1620552399843" duration="2921000" />
+       <workItem from="1620576350083" duration="3085000" />
+       <workItem from="1620628112380" duration="11283000" />
++      <workItem from="1620643381262" duration="92000" />
+     </task>
+     <task id="LOCAL-00001" summary="Init">
+       <created>1620547347213</created>
+@@ -107,7 +112,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1620549889672</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="social buttons">
++      <created>1620643403903</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1620643403903</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -128,6 +140,7 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Init" />
+     <MESSAGE value="sticky navbar" />
+-    <option name="LAST_COMMIT_MESSAGE" value="sticky navbar" />
++    <MESSAGE value="social buttons" />
++    <option name="LAST_COMMIT_MESSAGE" value="social buttons" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: package-lock.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/package-lock.json b/package-lock.json
+--- a/package-lock.json	(revision d5edb29af31a8b8a20ce93f9fd48dbd6760dc4a8)
++++ b/package-lock.json	(date 1620643498472)
+@@ -5341,6 +5341,11 @@
+         }
+       }
+     },
++    "email-addresses": {
++      "version": "3.1.0",
++      "resolved": "https://registry.npmjs.org/email-addresses/-/email-addresses-3.1.0.tgz",
++      "integrity": "sha512-k0/r7GrWVL32kZlGwfPNgB2Y/mMXVTq/decgLczm/j34whdaspNrZO8CnXPf1laaHxI6ptUlsnAxN+UAPw+fzg=="
++    },
+     "emittery": {
+       "version": "0.7.2",
+       "resolved": "https://registry.npmjs.org/emittery/-/emittery-0.7.2.tgz",
+@@ -6519,6 +6524,30 @@
+         }
+       }
+     },
++    "filename-reserved-regex": {
++      "version": "1.0.0",
++      "resolved": "https://registry.npmjs.org/filename-reserved-regex/-/filename-reserved-regex-1.0.0.tgz",
++      "integrity": "sha1-5hz4BfDeHJhFZ9A4bcXfUO5a9+Q="
++    },
++    "filenamify": {
++      "version": "1.2.1",
++      "resolved": "https://registry.npmjs.org/filenamify/-/filenamify-1.2.1.tgz",
++      "integrity": "sha1-qfL/0RxQO+0wABUCknI3jx8TZaU=",
++      "requires": {
++        "filename-reserved-regex": "^1.0.0",
++        "strip-outer": "^1.0.0",
++        "trim-repeated": "^1.0.0"
++      }
++    },
++    "filenamify-url": {
++      "version": "1.0.0",
++      "resolved": "https://registry.npmjs.org/filenamify-url/-/filenamify-url-1.0.0.tgz",
++      "integrity": "sha1-syvYExnvWGO3MHi+1Q9GpPeXX1A=",
++      "requires": {
++        "filenamify": "^1.0.0",
++        "humanize-url": "^1.0.0"
++      }
++    },
+     "filesize": {
+       "version": "6.1.0",
+       "resolved": "https://registry.npmjs.org/filesize/-/filesize-6.1.0.tgz",
+@@ -7011,6 +7040,106 @@
+         "assert-plus": "^1.0.0"
+       }
+     },
++    "gh-pages": {
++      "version": "3.1.0",
++      "resolved": "https://registry.npmjs.org/gh-pages/-/gh-pages-3.1.0.tgz",
++      "integrity": "sha512-3b1rly9kuf3/dXsT8+ZxP0UhNLOo1CItj+3e31yUVcaph/yDsJ9RzD7JOw5o5zpBTJVQLlJAASNkUfepi9fe2w==",
++      "requires": {
++        "async": "^2.6.1",
++        "commander": "^2.18.0",
++        "email-addresses": "^3.0.1",
++        "filenamify-url": "^1.0.0",
++        "find-cache-dir": "^3.3.1",
++        "fs-extra": "^8.1.0",
++        "globby": "^6.1.0"
++      },
++      "dependencies": {
++        "array-union": {
++          "version": "1.0.2",
++          "resolved": "https://registry.npmjs.org/array-union/-/array-union-1.0.2.tgz",
++          "integrity": "sha1-mjRBDk9OPaI96jdb5b5w8kd47Dk=",
++          "requires": {
++            "array-uniq": "^1.0.1"
++          }
++        },
++        "commander": {
++          "version": "2.20.3",
++          "resolved": "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz",
++          "integrity": "sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ=="
++        },
++        "find-cache-dir": {
++          "version": "3.3.1",
++          "resolved": "https://registry.npmjs.org/find-cache-dir/-/find-cache-dir-3.3.1.tgz",
++          "integrity": "sha512-t2GDMt3oGC/v+BMwzmllWDuJF/xcDtE5j/fCGbqDD7OLuJkj0cfh1YSA5VKPvwMeLFLNDBkwOKZ2X85jGLVftQ==",
++          "requires": {
++            "commondir": "^1.0.1",
++            "make-dir": "^3.0.2",
++            "pkg-dir": "^4.1.0"
++          }
++        },
++        "fs-extra": {
++          "version": "8.1.0",
++          "resolved": "https://registry.npmjs.org/fs-extra/-/fs-extra-8.1.0.tgz",
++          "integrity": "sha512-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY+Zia0mtdHsOo9y/hP+CxMN0TU9QxoOtG4g==",
++          "requires": {
++            "graceful-fs": "^4.2.0",
++            "jsonfile": "^4.0.0",
++            "universalify": "^0.1.0"
++          }
++        },
++        "globby": {
++          "version": "6.1.0",
++          "resolved": "https://registry.npmjs.org/globby/-/globby-6.1.0.tgz",
++          "integrity": "sha1-9abXDoOV4hyFj7BInWTfAkJNUGw=",
++          "requires": {
++            "array-union": "^1.0.1",
++            "glob": "^7.0.3",
++            "object-assign": "^4.0.1",
++            "pify": "^2.0.0",
++            "pinkie-promise": "^2.0.0"
++          }
++        },
++        "jsonfile": {
++          "version": "4.0.0",
++          "resolved": "https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz",
++          "integrity": "sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=",
++          "requires": {
++            "graceful-fs": "^4.1.6"
++          }
++        },
++        "make-dir": {
++          "version": "3.1.0",
++          "resolved": "https://registry.npmjs.org/make-dir/-/make-dir-3.1.0.tgz",
++          "integrity": "sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==",
++          "requires": {
++            "semver": "^6.0.0"
++          }
++        },
++        "pify": {
++          "version": "2.3.0",
++          "resolved": "https://registry.npmjs.org/pify/-/pify-2.3.0.tgz",
++          "integrity": "sha1-7RQaasBDqEnqWISY59yosVMw6Qw="
++        },
++        "pkg-dir": {
++          "version": "4.2.0",
++          "resolved": "https://registry.npmjs.org/pkg-dir/-/pkg-dir-4.2.0.tgz",
++          "integrity": "sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==",
++          "requires": {
++            "find-up": "^4.0.0"
++          }
++        },
++        "semver": {
++          "version": "6.3.0",
++          "resolved": "https://registry.npmjs.org/semver/-/semver-6.3.0.tgz",
++          "integrity": "sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw=="
++        },
++        "universalify": {
++          "version": "0.1.2",
++          "resolved": "https://registry.npmjs.org/universalify/-/universalify-0.1.2.tgz",
++          "integrity": "sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg=="
++        }
++      }
++    },
+     "glob": {
+       "version": "7.1.6",
+       "resolved": "https://registry.npmjs.org/glob/-/glob-7.1.6.tgz",
+@@ -7580,6 +7709,15 @@
+       "resolved": "https://registry.npmjs.org/human-signals/-/human-signals-1.1.1.tgz",
+       "integrity": "sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw=="
+     },
++    "humanize-url": {
++      "version": "1.0.1",
++      "resolved": "https://registry.npmjs.org/humanize-url/-/humanize-url-1.0.1.tgz",
++      "integrity": "sha1-9KuZ4NKIF0yk4eUEB8VfuuRk7/8=",
++      "requires": {
++        "normalize-url": "^1.0.0",
++        "strip-url-auth": "^1.0.0"
++      }
++    },
+     "iconv-lite": {
+       "version": "0.4.24",
+       "resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz",
+@@ -14773,6 +14911,19 @@
+       "resolved": "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz",
+       "integrity": "sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig=="
+     },
++    "strip-outer": {
++      "version": "1.0.1",
++      "resolved": "https://registry.npmjs.org/strip-outer/-/strip-outer-1.0.1.tgz",
++      "integrity": "sha512-k55yxKHwaXnpYGsOzg4Vl8+tDrWylxDEpknGjhTiZB8dFRU5rTo9CAzeycivxV3s+zlTKwrs6WxMxR95n26kwg==",
++      "requires": {
++        "escape-string-regexp": "^1.0.2"
++      }
++    },
++    "strip-url-auth": {
++      "version": "1.0.1",
++      "resolved": "https://registry.npmjs.org/strip-url-auth/-/strip-url-auth-1.0.1.tgz",
++      "integrity": "sha1-IrD6OkE4WzO+PzMVUbu4N/oM164="
++    },
+     "style-loader": {
+       "version": "1.3.0",
+       "resolved": "https://registry.npmjs.org/style-loader/-/style-loader-1.3.0.tgz",
+@@ -15235,6 +15386,14 @@
+       "resolved": "https://registry.npmjs.org/trim-newlines/-/trim-newlines-1.0.0.tgz",
+       "integrity": "sha1-WIeWa7WCpFA6QetST301ARgVphM="
+     },
++    "trim-repeated": {
++      "version": "1.0.0",
++      "resolved": "https://registry.npmjs.org/trim-repeated/-/trim-repeated-1.0.0.tgz",
++      "integrity": "sha1-42RqLqTokTEr9+rObPsFOAvAHCE=",
++      "requires": {
++        "escape-string-regexp": "^1.0.2"
++      }
++    },
+     "true-case-path": {
+       "version": "1.0.3",
+       "resolved": "https://registry.npmjs.org/true-case-path/-/true-case-path-1.0.3.tgz",
